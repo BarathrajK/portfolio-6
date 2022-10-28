@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container{
     background: #106eea;
     height: 40px;
@@ -66,6 +75,9 @@ a{
     display: flex;
     align-items: center;
 }
+.navbar a:hover{
+    color: #106eea;
+}
 .navbar ul{
     margin: 0;
     padding: 0;
@@ -114,7 +126,6 @@ a{
 .header1{
     background-image: url("../image/1.jpg");
     background-attachment: fixed;
-    height: 200px;
     padding: 150px;
 }
 .header1-container span{
@@ -400,6 +411,11 @@ a{
 .section-title {
     text-align: center;
     padding-bottom: 30px
+}
+.section-title h2:hover{
+    color:#ffff00;
+    background: #008000;
+
 }
 .section-title h2{
     font-size: 13px;
